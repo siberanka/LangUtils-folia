@@ -3,6 +3,7 @@
 # .gitignore for maven 
 target/
 *.releaseBackup
+dependency-reduced-pom.xml
 
 # web application files
 #/web-app/WEB-INF

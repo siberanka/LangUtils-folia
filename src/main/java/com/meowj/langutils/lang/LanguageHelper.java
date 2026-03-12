@@ -28,7 +28,6 @@ import org.bukkit.entity.Entity;
 import org.bukkit.entity.EntityType;
 import org.bukkit.entity.Player;
 import org.bukkit.entity.TropicalFish;
-import org.bukkit.entity.Villager.Career;
 import org.bukkit.entity.Villager.Profession;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.inventory.meta.ItemMeta;
@@ -43,7 +42,7 @@ import java.util.List;
 import java.util.Locale;
 import java.util.Map.Entry;
 
-@SuppressWarnings("unused")
+@SuppressWarnings({"unused", "deprecation"})
 public class LanguageHelper {
 
     private static final String[] ROMAN_NUM = new String[]{
@@ -396,9 +395,7 @@ public class LanguageHelper {
     }
 
     /**
-     * Translate the name of the base effect of the potion. If the PotionType
-     * has no base effect, the translation of "No Effects" is returned. e.g.
-     * Water Bottle, Mundane Potion.
+     * Translate the name of the base effect of the potion.
      *
      * @param potionType The basic effect of PotionType.
      * @param locale     The target language.
@@ -443,9 +440,7 @@ public class LanguageHelper {
     }
 
     /**
-     * Get the "level" of the potion effect. This method is only meaningful for
-     * customizing potion effects, because the level of the potion basic effects
-     * is predefined.
+     * Get the "level" of the potion effect.
      *
      * @param amplifier The potion effect "Level"
      * @param locale    The target language.
@@ -469,8 +464,7 @@ public class LanguageHelper {
     }
 
     /**
-     * Combine the names and "level" and duration of the localized PotionEffect
-     * to make them look like the original ones in the game.
+     * Combine the names and "level" and duration of the localized PotionEffect.
      *
      * @param effect The name of the PotionEffect will be translated.
      * @param locale This locale will be used for translation.
@@ -504,8 +498,7 @@ public class LanguageHelper {
     }
 
     /**
-     * Get the localized name of the tropical fish category. The category of
-     * tropical fish are represented as patterns.
+     * Get the localized name of the tropical fish category.
      *
      * @param pattern Pattern of tropical fish.
      * @param locale  This locale will be used for translation.
@@ -523,15 +516,11 @@ public class LanguageHelper {
     }
 
     /**
-     * Get the names of 22 predefined tropical fish according to the 'variant'
-     * tag of TropicalFish.
+     * Get the names of 22 predefined tropical fish.
      *
      * @param meta   Metadata carrying information about tropical fish.
      * @param locale This locale will be used for translation.
-     * @return If variant is predefined, return the name of the tropical fish,
-     *         otherwise return null.
-     * @see <a href="https://minecraft.gamepedia.com/Tropical_Fish#Entity_data">
-     *         gamepedia</a>
+     * @return If variant is predefined, return the name of the tropical fish.
      */
     public static @Nullable String getPredefinedTropicalFishName(@NotNull TropicalFishBucketMeta meta, @NotNull String locale) {
         Integer variant = Util.getTropicalFishVariant(meta);
@@ -568,11 +557,9 @@ public class LanguageHelper {
     }
 
     /**
-     * Get the localized name of the villager's professional level. Completing a
-     * trade with a villager increases its professional-level slightly.
+     * Get the localized name of the villager's professional level.
      * <p>
-     * <b>This method is only applicable to Minecraft v1.14 and
-     * above.</b>
+     * <b>This method is only applicable to Minecraft v1.14 and above.</b>
      *
      * @param level  Professional level of the villager to be translated (1-5).
      * @param locale This locale will be used for translation.
@@ -593,9 +580,7 @@ public class LanguageHelper {
     /**
      * Get the localized professional-name of the villager.
      * <p>
-     * <b>This method is only applicable to Minecraft v1.14 and above.
-     * To get the career name of the villager in Minecraft v1.13, please use
-     * {@link #getVillagerCareerName(Career, String)}</b>
+     * <b>This method is only applicable to Minecraft v1.14 and above.</b>
      *
      * @param profession The profession of villager.
      * @param locale     This locale will be used for translation.
@@ -610,28 +595,6 @@ public class LanguageHelper {
      */
     public static @NotNull String getVillagerProfessionName(@NotNull Profession profession, @NotNull Player player) {
         return getVillagerProfessionName(profession, player.getLocale());
-    }
-
-    /**
-     * Get the localized career-name of the villager.
-     * <p>
-     * <b>This method is only applicable to Minecraft v1.13.
-     * To get the name of the villager profession in Minecraft v1.14 and above,
-     * please use {@link #getVillagerProfessionName(Profession, String)}</b>
-     *
-     * @param career The Career of villager.
-     * @param locale This locale will be used for translation.
-     * @return The translated Career name of the villager.
-     */
-    public static @NotNull String getVillagerCareerName(@NotNull Career career, @NotNull String locale) {
-        return LangUtils.villagerCareerStorage.getEntry(locale, career);
-    }
-
-    /**
-     * This method is similar to {@link #getVillagerCareerName(Career, String)}
-     */
-    public static @NotNull String getVillagerCareerName(@NotNull Career career, @NotNull Player player) {
-        return getVillagerCareerName(career, player.getLocale());
     }
 
     /**
@@ -659,8 +622,7 @@ public class LanguageHelper {
     }
 
     /**
-     * Get the name of the shield with base color. After the shield and the
-     * banner are combined, will get a shield with base color.
+     * Get the name of the shield with base color.
      *
      * @param shield The shield whose base color name will be translated.
      * @param locale This locale will be used for translation.
@@ -686,8 +648,7 @@ public class LanguageHelper {
      *
      * @param material Material for music records.
      * @param locale   This locale will be used for translation.
-     * @return If the given material is a music disk, the description of the
-     *         music disk is returned. Otherwise, return NULL.
+     * @return If the given material is a music disk, the description is returned.
      */
     public static @Nullable String getMusicDiskDesc(@NotNull Material material, @NotNull String locale) {
         return LangUtils.musicDiskStorage.getEntry(locale, material);
@@ -701,8 +662,7 @@ public class LanguageHelper {
     }
 
     /**
-     * Get the description of the "Banner Pattern" added in Minecraft 1.14 and
-     * above.
+     * Get the description of the "Banner Pattern" added in Minecraft 1.14+.
      *
      * @param material Material for banner pattern items.
      * @param locale   This locale will be used for translation.
@@ -720,13 +680,10 @@ public class LanguageHelper {
     }
 
     /**
-     * This is a utility method to easily get the pattern of the shield
-     * merged with the patterned banner.
+     * This is a utility method to easily get the pattern of the shield.
      *
      * @param shied The shield ItemStack.
-     * @return If the shield has a banner pattern on it, a list containing the
-     *         banner pattern will be returned. Otherwise, an empty list will be
-     *         returned.
+     * @return If the shield has a banner pattern, a list is returned.
      */
     public static @NotNull List<Pattern> getShiedPatterns(@NotNull ItemStack shied) {
         return NMS.getShiedPatterns(shied);

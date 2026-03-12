@@ -1,13 +1,12 @@
-Language Utils
-==============
+LangUtils-folia
+===============
 [![English](https://img.shields.io/badge/Lang-English-blue)](README.md) [![Chinese](https://img.shields.io/badge/语言-简体中文-green)](README_CN.md)
 
-A Bukkit/Spigot API to get the localized names of vanilla items, entitys, enchantments, biomes, potions, etc.
+A Bukkit/Spigot/Paper/Folia API to get the localized names of vanilla items, entities, enchantments, biomes, potions, etc.
 
-This project comes from [MascusJeoraly:LanguageUtils][Original].
+This project is a fork of [apachezy/LangUtils](https://github.com/apachezy/LangUtils), originally from [MascusJeoraly:LanguageUtils][Original].
 
-Now, it has been completely refactored, improved performance, can support more vanilla object name translations, is
-compatible with the previous LangUtils, and a copy can support all Minecraft versions above 1.13 at the same time.
+It has been completely refactored with improved performance, extended version support (**1.13 — 1.21.x**), **Folia compatibility**, and can support all Minecraft versions above 1.13 at the same time.
 
 **Tip:** If you want to use it on a server of 1.12.2 and below, please go to the original
 project: [MascusJeoraly:LanguageUtils][Original]
@@ -27,7 +26,9 @@ project: [MascusJeoraly:LanguageUtils][Original]
 
 ### Supported Minecraft version
 
-* 1.13,  1.14,  1.15,  1.16， 1.17
+* 1.13, 1.14, 1.15, 1.16, 1.17, 1.18, 1.19, 1.20, 1.21, 1.21.x
+* **Folia** supported
+* Requires **Java 17** or higher
 
 ___
 
@@ -78,7 +79,7 @@ ___
   
   dependencies {
       // Please check the latest version
-      provided group: 'com.github.apachezy', name: 'LangUtils', version: '3.2.1'
+      provided group: 'com.github.siberanka', name: 'LangUtils-folia', version: '3.2.4-folia'
   }
   ```
 * Build with Maven</br>
@@ -94,10 +95,10 @@ ___
   <dependencies>
       <!-- LangUtils -->
       <dependency>
-          <groupId>com.github.apachezy</groupId>
-          <artifactId>LangUtils</artifactId>
+          <groupId>com.github.siberanka</groupId>
+          <artifactId>LangUtils-folia</artifactId>
           <!--Please check the latest version -->  
-          <version>3.2.1</version>
+          <version>3.2.4-folia</version>
           <scope>provided</scope>
       </dependency>
   </dependencies>

@@ -1,0 +1,30 @@
+# ####################################################
+# LangUtils 1.18 - Caves & Cliffs Part 2             #
+# New biomes introduced in 1.18                      #
+# ####################################################
+language:
+  code: en_us
+  name: English
+  region: United States
+biome:
+  meadow: Meadow
+  grove: Grove
+  snowy_slopes: Snowy Slopes
+  frozen_peaks: Frozen Peaks
+  jagged_peaks: Jagged Peaks
+  stony_peaks: Stony Peaks
+  dripstone_caves: Dripstone Caves
+  lush_caves: Lush Caves
+  old_growth_birch_forest: Old Growth Birch Forest
+  old_growth_pine_taiga: Old Growth Pine Taiga
+  old_growth_spruce_taiga: Old Growth Spruce Taiga
+  snowy_plains: Snowy Plains
+  sparse_jungle: Sparse Jungle
+  stony_shore: Stony Shore
+  windswept_forest: Windswept Forest
+  windswept_gravelly_hills: Windswept Gravelly Hills
+  windswept_hills: Windswept Hills
+  windswept_savanna: Windswept Savanna
+  wooded_badlands: Wooded Badlands
+material:
+  music_disc_otherside: Music Disc

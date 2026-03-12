@@ -24,6 +24,7 @@ import org.jetbrains.annotations.Nullable;
 import java.util.List;
 import java.util.Map.Entry;
 
+@SuppressWarnings("deprecation")
 public class Util {
 
     private Util() {
@@ -75,6 +76,7 @@ public class Util {
     }
 
     @NotNull
+    @SuppressWarnings("deprecation")
     public static Integer getPatternMixedCode(@NotNull Pattern pattern) {
         int p = pattern.getPattern().ordinal();
         int c = pattern.getColor().ordinal();

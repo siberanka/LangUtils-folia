@@ -1,0 +1,73 @@
+# ####################################################
+# LangUtils 1.19 - The Wild Update                   #
+# New items, entities, biomes from 1.19              #
+# ####################################################
+language:
+  code: en_us
+  name: English
+  region: United States
+material:
+  mangrove_planks: Mangrove Planks
+  mangrove_log: Mangrove Log
+  mangrove_wood: Mangrove Wood
+  stripped_mangrove_log: Stripped Mangrove Log
+  stripped_mangrove_wood: Stripped Mangrove Wood
+  mangrove_roots: Mangrove Roots
+  muddy_mangrove_roots: Muddy Mangrove Roots
+  mangrove_slab: Mangrove Slab
+  mangrove_stairs: Mangrove Stairs
+  mangrove_fence: Mangrove Fence
+  mangrove_fence_gate: Mangrove Fence Gate
+  mangrove_door: Mangrove Door
+  mangrove_trapdoor: Mangrove Trapdoor
+  mangrove_button: Mangrove Button
+  mangrove_pressure_plate: Mangrove Pressure Plate
+  mangrove_sign: Mangrove Sign
+  mangrove_wall_sign: Mangrove Wall Sign
+  mangrove_boat: Mangrove Boat
+  mangrove_chest_boat: Mangrove Chest Boat
+  mangrove_leaves: Mangrove Leaves
+  mangrove_propagule: Mangrove Propagule
+  mud: Mud
+  packed_mud: Packed Mud
+  mud_bricks: Mud Bricks
+  mud_brick_slab: Mud Brick Slab
+  mud_brick_stairs: Mud Brick Stairs
+  mud_brick_wall: Mud Brick Wall
+  sculk: Sculk
+  sculk_vein: Sculk Vein
+  sculk_catalyst: Sculk Catalyst
+  sculk_shrieker: Sculk Shrieker
+  reinforced_deepslate: Reinforced Deepslate
+  froglight: Froglight
+  ochre_froglight: Ochre Froglight
+  verdant_froglight: Verdant Froglight
+  pearlescent_froglight: Pearlescent Froglight
+  frog_spawn: Frog Spawn
+  recovery_compass: Recovery Compass
+  echo_shard: Echo Shard
+  disc_fragment_5: Disc Fragment
+  music_disc_5: Music Disc
+  goat_horn: Goat Horn
+  oak_chest_boat: Oak Chest Boat
+  spruce_chest_boat: Spruce Chest Boat
+  birch_chest_boat: Birch Chest Boat
+  jungle_chest_boat: Jungle Chest Boat
+  acacia_chest_boat: Acacia Chest Boat
+  dark_oak_chest_boat: Dark Oak Chest Boat
+  tadpole_bucket: Bucket of Tadpole
+  tadpole_spawn_egg: Tadpole Spawn Egg
+  frog_spawn_egg: Frog Spawn Egg
+  allay_spawn_egg: Allay Spawn Egg
+  warden_spawn_egg: Warden Spawn Egg
+entity:
+  allay: Allay
+  frog: Frog
+  tadpole: Tadpole
+  warden: Warden
+  chest_boat: Chest Boat
+biome:
+  deep_dark: Deep Dark
+  mangrove_swamp: Mangrove Swamp
+enchantment:
+  swift_sneak: Swift Sneak

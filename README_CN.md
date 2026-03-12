@@ -1,12 +1,12 @@
-LangUtils
-=========
+LangUtils-folia
+===============
 [![English](https://img.shields.io/badge/Lang-English-blue)](README.md) [![Chinese](https://img.shields.io/badge/语言-简体中文-green)](README_CN.md)
 
-一个Bukkit/Spigot API，用于获取原版物品、实体、附魔、生物群系、药水等的本地化名称。
+一个 Bukkit/Spigot/Paper/Folia API，用于获取原版物品、实体、附魔、生物群系、药水等的本地化名称。
 
-该项目来自[MascusJeoraly:LanguageUtils][Original].
+该项目是 [apachezy/LangUtils](https://github.com/apachezy/LangUtils) 的分支，最初来自 [MascusJeoraly:LanguageUtils][Original]。
 
-它现在已经被完全重写，提高了性能、可以获取更多的原版对象名称、可以与以前的 LangUtils 兼容，并且一个副本可以同时支持所有高于 1.13 的Minecraft版本。
+它已被完全重构，提高了性能，扩展了版本支持（**1.13 — 1.21.x**），支持 **Folia**，并且一个副本可以同时支持所有高于 1.13 的 Minecraft 版本。
 
 **提示：** 如果要在 1.12.2 及更低版本的服务器上使用，请访问原项目： [MascusJeoraly:LanguageUtils][Original]
 
@@ -24,7 +24,9 @@ LangUtils
 * 获取带有描述的物品（例如音乐唱片和1.14新增的旗帜图案）的描述文字。
 
 ### 支持的 Minecraft 版本
-* 1.13  1.14  1.15  1.16  1.17
+* 1.13, 1.14, 1.15, 1.16, 1.17, 1.18, 1.19, 1.20, 1.21, 1.21.x
+* 支持 **Folia**
+* 需要 **Java 17** 或更高版本
 ___
 ### 安装
 
@@ -72,7 +74,7 @@ ___
   
   dependencies {
       // 请检查最新版本
-      provided group: 'com.github.apachezy', name: 'LangUtils', version: '3.2.1'
+      provided group: 'com.github.siberanka', name: 'LangUtils-folia', version: '3.2.4-folia'
   }
   ```
 * ***用 Maven 构建***</br>
@@ -88,10 +90,10 @@ ___
   <dependencies>
       <!-- LangUtils -->
       <dependency>
-          <groupId>com.github.apachezy</groupId>
-          <artifactId>LangUtils</artifactId>
+          <groupId>com.github.siberanka</groupId>
+          <artifactId>LangUtils-folia</artifactId>
           <!-- 请检查最新版本 -->  
-          <version>3.2.1</version>
+          <version>3.2.4-folia</version>
           <scope>provided</scope>
       </dependency>
   </dependencies>

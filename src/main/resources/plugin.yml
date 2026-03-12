@@ -1,7 +1,9 @@
 name: LangUtils
 version: ${version}
 main: com.meowj.langutils.LangUtils
-api-version: 1.16
+api-version: 1.13
+authors: [MeowJ, ApacheZy, siberanka]
+folia-supported: true
 commands:
   langutils:
     permission: langutils

@@ -1,0 +1,113 @@
+# ####################################################
+# LangUtils 1.20 - Trails & Tales                    #
+# New items, entities, biomes from 1.20              #
+# ####################################################
+language:
+  code: en_us
+  name: English
+  region: United States
+material:
+  cherry_planks: Cherry Planks
+  cherry_log: Cherry Log
+  cherry_wood: Cherry Wood
+  stripped_cherry_log: Stripped Cherry Log
+  stripped_cherry_wood: Stripped Cherry Wood
+  cherry_slab: Cherry Slab
+  cherry_stairs: Cherry Stairs
+  cherry_fence: Cherry Fence
+  cherry_fence_gate: Cherry Fence Gate
+  cherry_door: Cherry Door
+  cherry_trapdoor: Cherry Trapdoor
+  cherry_button: Cherry Button
+  cherry_pressure_plate: Cherry Pressure Plate
+  cherry_sign: Cherry Sign
+  cherry_wall_sign: Cherry Wall Sign
+  cherry_hanging_sign: Cherry Hanging Sign
+  cherry_wall_hanging_sign: Cherry Wall Hanging Sign
+  cherry_boat: Cherry Boat
+  cherry_chest_boat: Cherry Chest Boat
+  cherry_leaves: Cherry Leaves
+  cherry_sapling: Cherry Sapling
+  pink_petals: Pink Petals
+  bamboo_planks: Bamboo Planks
+  bamboo_mosaic: Bamboo Mosaic
+  bamboo_block: Block of Bamboo
+  stripped_bamboo_block: Stripped Block of Bamboo
+  bamboo_slab: Bamboo Slab
+  bamboo_mosaic_slab: Bamboo Mosaic Slab
+  bamboo_stairs: Bamboo Stairs
+  bamboo_mosaic_stairs: Bamboo Mosaic Stairs
+  bamboo_fence: Bamboo Fence
+  bamboo_fence_gate: Bamboo Fence Gate
+  bamboo_door: Bamboo Door
+  bamboo_trapdoor: Bamboo Trapdoor
+  bamboo_button: Bamboo Button
+  bamboo_pressure_plate: Bamboo Pressure Plate
+  bamboo_sign: Bamboo Sign
+  bamboo_wall_sign: Bamboo Wall Sign
+  bamboo_hanging_sign: Bamboo Hanging Sign
+  bamboo_wall_hanging_sign: Bamboo Wall Hanging Sign
+  bamboo_raft: Bamboo Raft
+  bamboo_chest_raft: Bamboo Chest Raft
+  oak_hanging_sign: Oak Hanging Sign
+  oak_wall_hanging_sign: Oak Wall Hanging Sign
+  spruce_hanging_sign: Spruce Hanging Sign
+  spruce_wall_hanging_sign: Spruce Wall Hanging Sign
+  birch_hanging_sign: Birch Hanging Sign
+  birch_wall_hanging_sign: Birch Wall Hanging Sign
+  jungle_hanging_sign: Jungle Hanging Sign
+  jungle_wall_hanging_sign: Jungle Wall Hanging Sign
+  acacia_hanging_sign: Acacia Hanging Sign
+  acacia_wall_hanging_sign: Acacia Wall Hanging Sign
+  dark_oak_hanging_sign: Dark Oak Hanging Sign
+  dark_oak_wall_hanging_sign: Dark Oak Wall Hanging Sign
+  mangrove_hanging_sign: Mangrove Hanging Sign
+  mangrove_wall_hanging_sign: Mangrove Wall Hanging Sign
+  crimson_hanging_sign: Crimson Hanging Sign
+  crimson_wall_hanging_sign: Crimson Wall Hanging Sign
+  warped_hanging_sign: Warped Hanging Sign
+  warped_wall_hanging_sign: Warped Wall Hanging Sign
+  suspicious_sand: Suspicious Sand
+  suspicious_gravel: Suspicious Gravel
+  decorated_pot: Decorated Pot
+  brush: Brush
+  sniffer_egg: Sniffer Egg
+  torchflower: Torchflower
+  torchflower_seeds: Torchflower Seeds
+  pitcher_plant: Pitcher Plant
+  pitcher_pod: Pitcher Pod
+  chiseled_bookshelf: Chiseled Bookshelf
+  calibrated_sculk_sensor: Calibrated Sculk Sensor
+  music_disc_relic: Music Disc
+  sniffer_spawn_egg: Sniffer Spawn Egg
+  camel_spawn_egg: Camel Spawn Egg
+  coast_armor_trim_smithing_template: Coast Armor Trim Smithing Template
+  dune_armor_trim_smithing_template: Dune Armor Trim Smithing Template
+  eye_armor_trim_smithing_template: Eye Armor Trim Smithing Template
+  host_armor_trim_smithing_template: Host Armor Trim Smithing Template
+  raiser_armor_trim_smithing_template: Raiser Armor Trim Smithing Template
+  rib_armor_trim_smithing_template: Rib Armor Trim Smithing Template
+  sentry_armor_trim_smithing_template: Sentry Armor Trim Smithing Template
+  shaper_armor_trim_smithing_template: Shaper Armor Trim Smithing Template
+  silence_armor_trim_smithing_template: Silence Armor Trim Smithing Template
+  snout_armor_trim_smithing_template: Snout Armor Trim Smithing Template
+  spire_armor_trim_smithing_template: Spire Armor Trim Smithing Template
+  tide_armor_trim_smithing_template: Tide Armor Trim Smithing Template
+  vex_armor_trim_smithing_template: Vex Armor Trim Smithing Template
+  ward_armor_trim_smithing_template: Ward Armor Trim Smithing Template
+  wayfinder_armor_trim_smithing_template: Wayfinder Armor Trim Smithing Template
+  wild_armor_trim_smithing_template: Wild Armor Trim Smithing Template
+  netherite_upgrade_smithing_template: Netherite Upgrade Smithing Template
+  pottery_shard_archer: Archer Pottery Sherd
+  pottery_shard_prize: Prize Pottery Sherd
+  pottery_shard_arms_up: Arms Up Pottery Sherd
+  pottery_shard_skull: Skull Pottery Sherd
+entity:
+  sniffer: Sniffer
+  camel: Camel
+  block_display: Block Display
+  item_display: Item Display
+  text_display: Text Display
+  interaction: Interaction
+biome:
+  cherry_grove: Cherry Grove

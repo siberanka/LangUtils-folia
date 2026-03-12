@@ -2,19 +2,21 @@ package com.meowj.langutils.storages;
 
 import com.meowj.langutils.LangUtils;
 import com.meowj.langutils.misc.Remaper;
-import org.bukkit.Bukkit;
 import org.bukkit.configuration.Configuration;
 import org.bukkit.configuration.ConfigurationSection;
-import org.bukkit.entity.Villager.Career;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 
-import java.util.EnumMap;
+import java.util.HashMap;
 import java.util.Locale;
 import java.util.Map;
-import java.util.logging.Level;
 
-public class VillagerCareerStorage extends Storage<Career> {
+/**
+ * Villager Career storage using String keys.
+ * Career was removed from the Bukkit API in 1.14+.
+ * This storage uses String-based keys for backward compatibility.
+ */
+public class VillagerCareerStorage extends Storage<String> {
 
     public VillagerCareerStorage(@NotNull String fallbackLocale) {
         super(fallbackLocale);
@@ -23,27 +25,16 @@ public class VillagerCareerStorage extends Storage<Career> {
     @Override
     @Nullable
     public ConfigurationSection load(@NotNull String locale, @NotNull Configuration langConfig,
-                                                  @NotNull String config, @Nullable Remaper remaper) {
+                                     @NotNull String config, @Nullable Remaper remaper) {
 
         ConfigurationSection entries = super.load(locale, langConfig, config, remaper);
 
         if (entries != null) {
-            for (Career career : Career.values()) {
-
-                String entryName = career.name().toLowerCase(Locale.ROOT);
-                String localized = entries.getString(entryName);
-
-                if (localized == null || localized.isEmpty()) {
-                    if (locale.equals(fallbackLocale)) {
-                        Bukkit.getLogger().log(
-                                Level.SEVERE,
-                                "Villager Career name {0} is missing in fallback language {1}.",
-                                new String[]{entryName, locale});
-                    }
-                    continue;
+            for (String key : entries.getKeys(false)) {
+                String localized = entries.getString(key);
+                if (localized != null && !localized.isEmpty()) {
+                    addEntry(locale, key.toLowerCase(Locale.ROOT), localized, remaper);
                 }
-
-                addEntry(locale, career, localized, remaper);
             }
         }
 
@@ -51,9 +42,10 @@ public class VillagerCareerStorage extends Storage<Career> {
     }
 
     @Override
-    public void addEntry(@NotNull String locale, @NotNull Career career, @NotNull String localized, Remaper remaper) {
+    public void addEntry(@NotNull String locale, @NotNull String career,
+                         @NotNull String localized, Remaper remaper) {
         locale = LangUtils.fixLocale(locale);
-        Map<Career, String> pairMap = pairStorage.computeIfAbsent(locale, s -> new EnumMap<>(Career.class));
+        Map<String, String> pairMap = pairStorage.computeIfAbsent(locale, s -> new HashMap<>());
         pairMap.put(career, localized);
 
         remapping(locale, pairMap, remaper);
@@ -61,9 +53,9 @@ public class VillagerCareerStorage extends Storage<Career> {
 
     @Override
     @NotNull
-    public String getEntry(@NotNull String locale, @NotNull Career career) {
+    public String getEntry(@NotNull String locale, @NotNull String career) {
         String result = super.getEntry(locale, career);
-        return result == null ? career.name().toLowerCase(Locale.ROOT) : result;
+        return result == null ? career.toLowerCase(Locale.ROOT) : result;
     }
 
 }

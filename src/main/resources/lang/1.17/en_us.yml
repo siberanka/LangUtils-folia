@@ -1,0 +1,14 @@
+# ####################################################
+# LangUtils 1.17 - Caves & Cliffs Part 1             #
+# Items already included in common (1.17 base)       #
+# This file contains overrides/additions only         #
+# ####################################################
+language:
+  code: en_us
+  name: English
+  region: United States
+entity:
+  axolotl: Axolotl
+  glow_squid: Glow Squid
+  goat: Goat
+  marker: Marker

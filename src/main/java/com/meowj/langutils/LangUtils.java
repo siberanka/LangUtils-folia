@@ -128,7 +128,12 @@ public class LangUtils extends JavaPlugin {
 
         try (JarFile jar = new JarFile(getFile())) {
             Set<String> loaded = loadResources(jar, "common", codes, loadAll);
-            loaded.addAll(loadResources(jar, NMS.getVersion(), codes, loadAll));
+
+            // Load all version directories up to (and including) the current server version
+            List<String> versionDirs = NMS.getVersionDirs();
+            for (String versionDir : versionDirs) {
+                loaded.addAll(loadResources(jar, versionDir, codes, loadAll));
+            }
 
             if (loadAll) {
                 getLogger().log(Level.INFO, "{0} languages loaded.", loaded.size());
@@ -137,6 +142,10 @@ public class LangUtils extends JavaPlugin {
                     getLogger().log(Level.INFO, "{0} has been loaded.", s);
                 }
             }
+
+            getLogger().log(Level.INFO, "Loaded language resources for versions: common, {0}",
+                String.join(", ", versionDirs));
+
         } catch (IOException e) {
             getLogger().severe("An exception occurred while loading language resources:");
             getLogger().severe(e.getLocalizedMessage());
@@ -201,7 +210,7 @@ public class LangUtils extends JavaPlugin {
                     newBannerPatternStorage.load(langInfo.code, cfg, "new_banner_pattern", remaper);
                     // @formatter:on
 
-                    loadVersion13Resources(langInfo.code, cfg, remaper);
+                    loadVersionSpecificResources(langInfo.code, cfg, remaper);
 
                     result.add(langInfo.toString());
                 }
@@ -214,13 +223,13 @@ public class LangUtils extends JavaPlugin {
         return result;
     }
 
-    private void loadVersion13Resources(String code, Configuration cfg, Remaper remaper) {
-        if ("1.13".equals(NMS.getVersion())) {
-            villagerCareerStorage.load(code, cfg, "villager_career"    , remaper);
-        } else {
-            villagerLevelStorage .load(code, cfg, "merchant_level"     , remaper);
-            professionStorage    .load(code, cfg, "villager_profession", remaper);
-        }
+    @SuppressWarnings("deprecation")
+    private void loadVersionSpecificResources(String code, Configuration cfg, Remaper remaper) {
+        // Villager Career only exists in 1.13
+        villagerCareerStorage.load(code, cfg, "villager_career"    , remaper);
+        // Villager Profession and Merchant Level exist in 1.14+
+        villagerLevelStorage .load(code, cfg, "merchant_level"     , remaper);
+        professionStorage    .load(code, cfg, "villager_profession", remaper);
     }
 
     private void clearStorages() {

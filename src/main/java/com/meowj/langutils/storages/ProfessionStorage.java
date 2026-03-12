@@ -9,7 +9,7 @@ import org.bukkit.entity.Villager.Profession;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 
-import java.util.EnumMap;
+import java.util.HashMap;
 import java.util.Locale;
 import java.util.Map;
 import java.util.logging.Level;
@@ -54,7 +54,7 @@ public class ProfessionStorage extends Storage<Profession> {
     public void addEntry(@NotNull String locale, @NotNull Profession profession,
                          @NotNull String localized, Remaper remaper) {
         locale = LangUtils.fixLocale(locale);
-        Map<Profession, String> pairMap = pairStorage.computeIfAbsent(locale, s -> new EnumMap<>(Profession.class));
+        Map<Profession, String> pairMap = pairStorage.computeIfAbsent(locale, s -> new HashMap<>());
         pairMap.put(profession, localized);
 
         remapping(locale, pairMap, remaper);

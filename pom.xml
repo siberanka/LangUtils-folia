@@ -4,11 +4,11 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.meowj</groupId>
     <artifactId>LangUtils</artifactId>
-    <version>3.2.3</version>
+    <version>3.2.4-folia</version>
 
     <properties>
-        <maven.compiler.source>8</maven.compiler.source>
-        <maven.compiler.target>8</maven.compiler.target>
+        <maven.compiler.source>17</maven.compiler.source>
+        <maven.compiler.target>17</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
     </properties>
@@ -67,13 +67,67 @@
                     <include>*.yml</include>
                 </includes>
             </resource>
+
+            <resource>
+                <targetPath>lang/1.16</targetPath>
+                <filtering>false</filtering>
+                <directory>src/main/resources/lang/1.16</directory>
+                <includes>
+                    <include>*.yml</include>
+                </includes>
+            </resource>
+
+            <resource>
+                <targetPath>lang/1.17</targetPath>
+                <filtering>false</filtering>
+                <directory>src/main/resources/lang/1.17</directory>
+                <includes>
+                    <include>*.yml</include>
+                </includes>
+            </resource>
+
+            <resource>
+                <targetPath>lang/1.18</targetPath>
+                <filtering>false</filtering>
+                <directory>src/main/resources/lang/1.18</directory>
+                <includes>
+                    <include>*.yml</include>
+                </includes>
+            </resource>
+
+            <resource>
+                <targetPath>lang/1.19</targetPath>
+                <filtering>false</filtering>
+                <directory>src/main/resources/lang/1.19</directory>
+                <includes>
+                    <include>*.yml</include>
+                </includes>
+            </resource>
+
+            <resource>
+                <targetPath>lang/1.20</targetPath>
+                <filtering>false</filtering>
+                <directory>src/main/resources/lang/1.20</directory>
+                <includes>
+                    <include>*.yml</include>
+                </includes>
+            </resource>
+
+            <resource>
+                <targetPath>lang/1.21</targetPath>
+                <filtering>false</filtering>
+                <directory>src/main/resources/lang/1.21</directory>
+                <includes>
+                    <include>*.yml</include>
+                </includes>
+            </resource>
         </resources>
 
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-shade-plugin</artifactId>
-                <version>3.2.1</version>
+                <version>3.5.1</version>
                 <configuration>
                     <relocations>
                         <relocation>
@@ -99,13 +153,13 @@
         <!--
          | Spigot-API
          |
-         | In order to make both Career and Profession of the
-         | villagers pass the compilation, version 1.13.2 was used.
+         | Using 1.21 for compilation to support all new Materials/Entities.
+         | The plugin remains backward compatible with 1.13+ at runtime.
          !-->
         <dependency>
             <groupId>org.spigotmc</groupId>
             <artifactId>spigot-api</artifactId>
-            <version>1.13.2-R0.1-SNAPSHOT</version>
+            <version>1.21-R0.1-SNAPSHOT</version>
             <scope>provided</scope>
             <exclusions>
                 <exclusion>
@@ -116,20 +170,6 @@
         </dependency>
 
         <!--
-         | NMS-Extracted
-         |
-         | In order to facilitate the development, the nms
-         | library of each version is specially extracted.
-         |-->
-        <dependency>
-            <groupId>com.gitee.apachezy</groupId>
-            <artifactId>mc-NmsLib</artifactId>
-            <!-- 已更新到1.17 -->
-            <version>1.0.2</version>
-            <scope>provided</scope>
-        </dependency>
-
-        <!--
          | Plugin Metrics - bStats
          |
          | Simply count how many plugins use LangUtils.
@@ -137,7 +177,7 @@
         <dependency>
             <groupId>org.bstats</groupId>
             <artifactId>bstats-bukkit</artifactId>
-            <version>2.2.1</version>
+            <version>3.0.2</version>
             <scope>compile</scope>
         </dependency>
 
@@ -147,7 +187,7 @@
         <dependency>
             <groupId>org.jetbrains</groupId>
             <artifactId>annotations</artifactId>
-            <version>19.0.0</version>
+            <version>24.0.1</version>
             <scope>provided</scope>
         </dependency>
     </dependencies>
