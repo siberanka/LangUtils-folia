@@ -1,7 +1,6 @@
 package com.meowj.langutils.storages;
 
 import com.meowj.langutils.misc.Remaper;
-import org.bukkit.Bukkit;
 import org.bukkit.configuration.Configuration;
 import org.bukkit.configuration.ConfigurationSection;
 import org.bukkit.potion.PotionEffectType;
@@ -9,7 +8,7 @@ import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 
 import java.util.Locale;
-import java.util.logging.Level;
+import java.util.Locale;
 
 public class PotionEffectStorage extends Storage<PotionEffectType> {
 
@@ -25,22 +24,17 @@ public class PotionEffectStorage extends Storage<PotionEffectType> {
         ConfigurationSection entries = super.load(locale, langConfig, config, remaper);
 
         if (entries != null) {
-            for (PotionEffectType effect : PotionEffectType.values()) {
-
-                String entryName = effect.getName().toLowerCase(Locale.ROOT);
+            for (String entryName : entries.getKeys(false)) {
                 String localized = entries.getString(entryName);
 
                 if (localized == null || localized.isEmpty()) {
-                    if (locale.equals(fallbackLocale)) {
-                        Bukkit.getLogger().log(
-                                Level.SEVERE,
-                                "PotionEffectType name {0} is missing in fallback language {1}.",
-                                new String[]{entryName, locale});
-                    }
                     continue;
                 }
 
-                addEntry(locale, effect, localized, remaper);
+                PotionEffectType effect = PotionEffectType.getByName(entryName.toUpperCase(Locale.ROOT));
+                if (effect != null) {
+                    addEntry(locale, effect, localized, remaper);
+                }
             }
         }
 

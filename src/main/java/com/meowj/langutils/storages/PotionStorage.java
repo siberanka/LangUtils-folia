@@ -1,18 +1,14 @@
 package com.meowj.langutils.storages;
 
-import com.meowj.langutils.LangUtils;
 import com.meowj.langutils.misc.Remaper;
-import org.bukkit.Bukkit;
 import org.bukkit.configuration.Configuration;
 import org.bukkit.configuration.ConfigurationSection;
 import org.bukkit.potion.PotionType;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 
-import java.util.EnumMap;
 import java.util.Locale;
-import java.util.Map;
-import java.util.logging.Level;
+import java.util.Locale;
 
 public class PotionStorage extends Storage<PotionType> {
 
@@ -28,38 +24,24 @@ public class PotionStorage extends Storage<PotionType> {
         ConfigurationSection entries = super.load(locale, langConfig, config, remaper);
 
         if (entries != null) {
-            for (PotionType potionType : PotionType.values()) {
-
-                String entryName = potionType.name().toLowerCase(Locale.ROOT);
+            for (String entryName : entries.getKeys(false)) {
                 String localized = entries.getString(entryName);
 
                 if (localized == null || localized.isEmpty()) {
-                    if (locale.equals(fallbackLocale)) {
-                        Bukkit.getLogger().log(
-                                Level.SEVERE,
-                                "PotionType name {0} is missing in fallback language {1}.",
-                                new String[]{entryName, locale});
-                    }
                     continue;
                 }
 
-                addEntry(locale, potionType, localized, remaper);
+                try {
+                    PotionType potionType = PotionType.valueOf(entryName.toUpperCase(Locale.ROOT));
+                    addEntry(locale, potionType, localized, remaper);
+                } catch (IllegalArgumentException ignored) {
+                }
             }
         }
 
         return entries;
     }
 
-    @Override
-    public void addEntry(@NotNull String locale, @NotNull PotionType potionType,
-                         @NotNull String localized, Remaper remaper) {
-
-        locale = LangUtils.fixLocale(locale);
-        Map<PotionType, String> pairMap = pairStorage.computeIfAbsent(locale, s -> new EnumMap<>(PotionType.class));
-        pairMap.put(potionType, localized);
-
-        remapping(locale, pairMap, remaper);
-    }
 
     @Override
     @NotNull

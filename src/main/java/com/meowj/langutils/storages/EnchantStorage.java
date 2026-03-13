@@ -1,14 +1,14 @@
 package com.meowj.langutils.storages;
 
 import com.meowj.langutils.misc.Remaper;
-import org.bukkit.Bukkit;
+import org.bukkit.NamespacedKey;
 import org.bukkit.configuration.Configuration;
 import org.bukkit.configuration.ConfigurationSection;
 import org.bukkit.enchantments.Enchantment;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 
-import java.util.logging.Level;
+import java.util.Locale;
 
 public class EnchantStorage extends Storage<Enchantment> {
 
@@ -24,22 +24,27 @@ public class EnchantStorage extends Storage<Enchantment> {
         ConfigurationSection entries = super.load(locale, langConfig, config, remaper);
 
         if (entries != null) {
-            for (Enchantment enchant : Enchantment.values()) {
-
-                String entryName = enchant.getKey().getKey();
+            for (String entryName : entries.getKeys(false)) {
                 String localized = entries.getString(entryName);
 
                 if (localized == null || localized.isEmpty()) {
-                    if (locale.equals(fallbackLocale)) {
-                        Bukkit.getLogger().log(
-                                Level.SEVERE,
-                                "Enchantment name {0} is missing in fallback language {1}.",
-                                new String[]{entryName, locale});
-                    }
                     continue;
                 }
 
-                addEntry(locale, enchant, localized, remaper);
+                try {
+                    // Try to get by key first (1.13+)
+                    NamespacedKey key = NamespacedKey.minecraft(entryName);
+                    Enchantment enchant = Enchantment.getByKey(key);
+                    if (enchant == null) {
+                        // Fallback to name for older versions/compatibility
+                        enchant = Enchantment.getByName(entryName.toUpperCase(Locale.ROOT));
+                    }
+
+                    if (enchant != null) {
+                        addEntry(locale, enchant, localized, remaper);
+                    }
+                } catch (Exception ignored) {
+                }
             }
         }
 

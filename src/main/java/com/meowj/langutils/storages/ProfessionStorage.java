@@ -1,18 +1,14 @@
 package com.meowj.langutils.storages;
 
-import com.meowj.langutils.LangUtils;
 import com.meowj.langutils.misc.Remaper;
-import org.bukkit.Bukkit;
 import org.bukkit.configuration.Configuration;
 import org.bukkit.configuration.ConfigurationSection;
 import org.bukkit.entity.Villager.Profession;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 
-import java.util.HashMap;
 import java.util.Locale;
-import java.util.Map;
-import java.util.logging.Level;
+import java.util.Locale;
 
 public class ProfessionStorage extends Storage<Profession> {
 
@@ -28,37 +24,24 @@ public class ProfessionStorage extends Storage<Profession> {
         ConfigurationSection entries = super.load(locale, langConfig, config, remaper);
 
         if (entries != null) {
-            for (Profession profession : Profession.values()) {
-
-                String entryName = profession.name().toLowerCase(Locale.ROOT);
+            for (String entryName : entries.getKeys(false)) {
                 String localized = entries.getString(entryName);
 
                 if (localized == null || localized.isEmpty()) {
-                    if (locale.equals(fallbackLocale)) {
-                        Bukkit.getLogger().log(
-                                Level.SEVERE,
-                                "Villager Profession name {0} is missing in fallback language {1}.",
-                                new String[]{entryName, locale});
-                    }
                     continue;
                 }
 
-                addEntry(locale, profession, localized, remaper);
+                try {
+                    Profession profession = Profession.valueOf(entryName.toUpperCase(Locale.ROOT));
+                    addEntry(locale, profession, localized, remaper);
+                } catch (IllegalArgumentException ignored) {
+                }
             }
         }
 
         return entries;
     }
 
-    @Override
-    public void addEntry(@NotNull String locale, @NotNull Profession profession,
-                         @NotNull String localized, Remaper remaper) {
-        locale = LangUtils.fixLocale(locale);
-        Map<Profession, String> pairMap = pairStorage.computeIfAbsent(locale, s -> new HashMap<>());
-        pairMap.put(profession, localized);
-
-        remapping(locale, pairMap, remaper);
-    }
 
     @Override
     @NotNull
