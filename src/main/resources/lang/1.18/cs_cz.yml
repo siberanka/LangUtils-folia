@@ -1,4 +1,8 @@
-﻿language:
+language:
   code: cs_cz
   name: Čeština
   region: Česko
+biome:
+  meadow: "Horská louka"
+  grove: "Zasněžený lesík"
+  snowy_slopes: "Zasněžené svahy"

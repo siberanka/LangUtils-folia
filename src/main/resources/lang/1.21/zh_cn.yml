@@ -1,4 +1,20 @@
-﻿language:
+language:
   code: zh_cn
   name: 简体中文
   region: 中国
+material:
+  trial_spawner: "试炼刷怪笼"
+  vault: "宝库"
+  heavy_core: "沉重核心"
+  mace: "重锤"
+  wind_charge: "风弹"
+  breeze_rod: "旋风棒"
+  crafter: "合成器"
+entity:
+  breeze: "旋风人"
+  bogged: "沼骸"
+  wind_charge: "风弹"
+enchantment:
+  wind_burst: "风爆"
+  density: "致密"
+  breach: "破甲"

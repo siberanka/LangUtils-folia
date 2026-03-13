@@ -1,4 +1,13 @@
-﻿language:
+language:
   code: lv_lv
   name: Latviešu
   region: Latvija
+material:
+  cherry_planks: "Ķirša dēļi"
+  cherry_log: "Ķirša baļķis"
+  bamboo_planks: "Bambusa dēļi"
+entity:
+  sniffer: "Ošņātājs"
+  camel: "Kamielis"
+biome:
+  cherry_grove: "Ķiršu birzs"

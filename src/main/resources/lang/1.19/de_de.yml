@@ -1,4 +1,16 @@
-﻿language:
+language:
   code: de_de
   name: Deutsch
   region: Deutschland
+material:
+  mangrove_planks: "Mangrovenholzbretter"
+  mud: "Schlamm"
+  sculk: "Sculk"
+  froglight: "Ockernes Froschlicht"
+entity:
+  allay: "Hilfsgeist"
+  frog: "Frosch"
+  tadpole: "Kaulquappe"
+  warden: "Wärter"
+enchantment:
+  swift_sneak: "Huschen"

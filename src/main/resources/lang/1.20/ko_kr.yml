@@ -1,4 +1,13 @@
-﻿language:
+language:
   code: ko_kr
   name: 한국어
   region: 대한민국
+material:
+  cherry_planks: "벚나무 판자"
+  cherry_log: "벚나무 원목"
+  bamboo_planks: "대나무 판자"
+entity:
+  sniffer: "스니퍼"
+  camel: "낙타"
+biome:
+  cherry_grove: "벚나무 숲"

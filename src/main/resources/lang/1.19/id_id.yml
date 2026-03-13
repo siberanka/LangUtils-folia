@@ -1,4 +1,16 @@
-﻿language:
+language:
   code: id_id
   name: Bahasa Indonesia
   region: Indonesia
+material:
+  mangrove_planks: "Papan Bakau"
+  mud: "Lumpur"
+  sculk: "Sculk"
+  froglight: "Lampu Katak Hartal"
+entity:
+  allay: "Pembantu"
+  frog: "Katak"
+  tadpole: "Kecebong"
+  warden: "Sipir"
+enchantment:
+  swift_sneak: "Jongkok Cepat"

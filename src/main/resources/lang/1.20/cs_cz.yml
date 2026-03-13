@@ -1,4 +1,13 @@
-﻿language:
+language:
   code: cs_cz
   name: Čeština
   region: Česko
+material:
+  cherry_planks: "Třešňová prkna"
+  cherry_log: "Třešňový kmen"
+  bamboo_planks: "Bambusová prkna"
+entity:
+  sniffer: "čmuchal"
+  camel: "velbloud"
+biome:
+  cherry_grove: "Sakurový háj"

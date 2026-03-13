@@ -1,4 +1,20 @@
-﻿language:
+language:
   code: fr_fr
   name: Français
   region: France
+material:
+  trial_spawner: "Générateur des épreuves"
+  vault: "Coffre-fort"
+  heavy_core: "Noyau lourd"
+  mace: "Masse"
+  wind_charge: "Charge de vent"
+  breeze_rod: "Bâton de Breeze"
+  crafter: "Fabricateur"
+entity:
+  breeze: "Breeze"
+  bogged: "Embourbé"
+  wind_charge: "Charge de vent"
+enchantment:
+  wind_burst: "Rafale de vent"
+  density: "Densité"
+  breach: "Brèche"

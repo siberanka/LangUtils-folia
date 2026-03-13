@@ -1,4 +1,16 @@
-﻿language:
+language:
   code: it_it
   name: Italiano
   region: Italia
+material:
+  mangrove_planks: "Assi di mangrovia"
+  mud: "Fango"
+  sculk: "Sculk"
+  froglight: "Lanterana ocra"
+entity:
+  allay: "Alleviante"
+  frog: "Rana"
+  tadpole: "Girino"
+  warden: "Sorvegliante"
+enchantment:
+  swift_sneak: "Passo felpato"

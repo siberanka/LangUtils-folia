@@ -1,4 +1,16 @@
-﻿language:
+language:
   code: zh_tw
   name: 繁體中文
   region: 台灣
+material:
+  mangrove_planks: "紅樹林木材"
+  mud: "泥巴"
+  sculk: "伏聆"
+  froglight: "赭黃蛙光體"
+entity:
+  allay: "悅靈"
+  frog: "青蛙"
+  tadpole: "蝌蚪"
+  warden: "伏守者"
+enchantment:
+  swift_sneak: "迅捷潛行"

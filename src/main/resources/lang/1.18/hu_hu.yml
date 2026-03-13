@@ -1,4 +1,8 @@
-﻿language:
+language:
   code: hu_hu
   name: Magyar
   region: Magyarország
+biome:
+  meadow: "Rét"
+  grove: "Liget"
+  snowy_slopes: "Havas hegyoldal"

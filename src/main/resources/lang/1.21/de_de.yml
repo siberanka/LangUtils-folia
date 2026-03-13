@@ -1,4 +1,20 @@
-﻿language:
+language:
   code: de_de
   name: Deutsch
   region: Deutschland
+material:
+  trial_spawner: "Prüfungs-Spawner"
+  vault: "Tresor"
+  heavy_core: "Schwerer Kern"
+  mace: "Streitkolben"
+  wind_charge: "Windkugel"
+  breeze_rod: "Böenrute"
+  crafter: "Werker"
+entity:
+  breeze: "Böe"
+  bogged: "Sumpfskelett"
+  wind_charge: "Windkugel"
+enchantment:
+  wind_burst: "Windstoß"
+  density: "Dichte"
+  breach: "Durchbruch"

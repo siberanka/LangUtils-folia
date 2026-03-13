@@ -1,4 +1,20 @@
-﻿language:
+language:
   code: cs_cz
   name: Čeština
   region: Česko
+material:
+  trial_spawner: "Líheň klání"
+  vault: "Pokladnice"
+  heavy_core: "Těžké jádro"
+  mace: "Palcát"
+  wind_charge: "Větrný náboj"
+  breeze_rod: "Fičákova hůl"
+  crafter: "Výrobník"
+entity:
+  breeze: "Fičák"
+  bogged: "bahnivec"
+  wind_charge: "Větrný náboj"
+enchantment:
+  wind_burst: "Poryv"
+  density: "Hustota"
+  breach: "Prolomení"

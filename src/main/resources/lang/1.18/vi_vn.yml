@@ -1,4 +1,8 @@
-﻿language:
+language:
   code: vi_vn
   name: Tiếng Việt
   region: Việt Nam
+biome:
+  meadow: "Đồng cỏ"
+  grove: "Rừng núi phủ tuyết"
+  snowy_slopes: "Dốc tuyết"

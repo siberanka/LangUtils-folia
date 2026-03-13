@@ -1,4 +1,13 @@
-﻿language:
+language:
   code: es_es
   name: Español
   region: España
+material:
+  cherry_planks: "Tablones de cerezo"
+  cherry_log: "Tronco de cerezo"
+  bamboo_planks: "Tablones de bambú"
+entity:
+  sniffer: "Sniffer"
+  camel: "Camello"
+biome:
+  cherry_grove: "Cerezal"

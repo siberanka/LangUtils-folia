@@ -1,4 +1,13 @@
-﻿language:
+language:
   code: vi_vn
   name: Tiếng Việt
   region: Việt Nam
+material:
+  cherry_planks: "Ván gỗ anh đào"
+  cherry_log: "Thân cây anh đào"
+  bamboo_planks: "Ván gỗ tre"
+entity:
+  sniffer: "Kẻ đánh hơi"
+  camel: "Lạc đà"
+biome:
+  cherry_grove: "Rừng núi anh đào"

@@ -1,4 +1,13 @@
-﻿language:
+language:
   code: de_de
   name: Deutsch
   region: Deutschland
+material:
+  cherry_planks: "Kirschholzbretter"
+  cherry_log: "Kirschstamm"
+  bamboo_planks: "Bambusbretter"
+entity:
+  sniffer: "Schnüffler"
+  camel: "Dromedar"
+biome:
+  cherry_grove: "Kirschberghain"

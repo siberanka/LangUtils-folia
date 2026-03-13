@@ -1,4 +1,16 @@
-﻿language:
+language:
   code: pt_br
   name: Português
   region: Brasil
+material:
+  mangrove_planks: "Tábuas de mangue"
+  mud: "Barro"
+  sculk: "Sculk"
+  froglight: "Anfibrilho ocre"
+entity:
+  allay: "Allay"
+  frog: "Sapo"
+  tadpole: "Girino"
+  warden: "Defensor"
+enchantment:
+  swift_sneak: "Passos furtivos"

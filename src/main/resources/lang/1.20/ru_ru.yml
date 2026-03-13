@@ -1,4 +1,13 @@
-﻿language:
+language:
   code: ru_ru
   name: Русский
   region: Россия
+material:
+  cherry_planks: "Вишнёвые доски"
+  cherry_log: "Вишнёвое бревно"
+  bamboo_planks: "Бамбуковые доски"
+entity:
+  sniffer: "Нюхач"
+  camel: "Верблюд"
+biome:
+  cherry_grove: "Вишнёвая роща"

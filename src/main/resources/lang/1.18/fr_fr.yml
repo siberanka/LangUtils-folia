@@ -1,4 +1,8 @@
-﻿language:
+language:
   code: fr_fr
   name: Français
   region: France
+biome:
+  meadow: "Prairie"
+  grove: "Bosquet"
+  snowy_slopes: "Pentes enneigées"

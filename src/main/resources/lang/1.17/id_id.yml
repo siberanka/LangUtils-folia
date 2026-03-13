@@ -1,4 +1,9 @@
-﻿language:
+language:
   code: id_id
   name: Bahasa Indonesia
   region: Indonesia
+entity:
+  axolotl: "Axolotl"
+  glow_squid: "Cumi-Cumi Bersinar"
+  goat: "Kambing"
+  marker: "Penanda"

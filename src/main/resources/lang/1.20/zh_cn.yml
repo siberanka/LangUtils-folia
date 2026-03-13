@@ -1,4 +1,13 @@
-﻿language:
+language:
   code: zh_cn
   name: 简体中文
   region: 中国
+material:
+  cherry_planks: "樱花木板"
+  cherry_log: "樱花原木"
+  bamboo_planks: "竹板"
+entity:
+  sniffer: "嗅探兽"
+  camel: "骆驼"
+biome:
+  cherry_grove: "樱花树林"

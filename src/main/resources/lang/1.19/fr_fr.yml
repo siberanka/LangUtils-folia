@@ -1,4 +1,16 @@
-﻿language:
+language:
   code: fr_fr
   name: Français
   region: France
+material:
+  mangrove_planks: "Planches de palétuvier"
+  mud: "Boue"
+  sculk: "Sculk"
+  froglight: "Grelampe ocrée"
+entity:
+  allay: "Allay"
+  frog: "Grenouille"
+  tadpole: "Têtard"
+  warden: "Warden"
+enchantment:
+  swift_sneak: "Furtivité rapide"

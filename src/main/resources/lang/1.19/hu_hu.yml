@@ -1,4 +1,16 @@
-﻿language:
+language:
   code: hu_hu
   name: Magyar
   region: Magyarország
+material:
+  mangrove_planks: "Mangrovedeszka"
+  mud: "Iszap"
+  sculk: "Sculk"
+  froglight: "Okker varangyfény"
+entity:
+  allay: "Nyugtancs"
+  frog: "Béka"
+  tadpole: "Ebihal"
+  warden: "Strázsa"
+enchantment:
+  swift_sneak: "Gyors lopódzás"

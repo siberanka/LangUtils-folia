@@ -1,4 +1,8 @@
-﻿language:
+language:
   code: tr_tr
   name: Türkçe
   region: Türkiye
+biome:
+  meadow: "Çayır"
+  grove: "Ağaçlık"
+  snowy_slopes: "Karlı Yamaçlar"

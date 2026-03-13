@@ -1,4 +1,16 @@
-﻿language:
+language:
   code: ru_ru
   name: Русский
   region: Россия
+material:
+  mangrove_planks: "Мангровые доски"
+  mud: "Грязь"
+  sculk: "Скалк"
+  froglight: "Охристая квампа"
+entity:
+  allay: "Тихоня"
+  frog: "Лягушка"
+  tadpole: "Головастик"
+  warden: "Хранитель"
+enchantment:
+  swift_sneak: "Проворство"

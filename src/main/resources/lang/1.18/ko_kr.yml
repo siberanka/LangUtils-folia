@@ -1,4 +1,8 @@
-﻿language:
+language:
   code: ko_kr
   name: 한국어
   region: 대한민국
+biome:
+  meadow: "목초지"
+  grove: "산림"
+  snowy_slopes: "눈 덮인 비탈"

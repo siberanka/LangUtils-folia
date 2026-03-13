@@ -1,4 +1,9 @@
-﻿language:
+language:
   code: hu_hu
   name: Magyar
   region: Magyarország
+entity:
+  axolotl: "Axolotl"
+  glow_squid: "Fénylő tintahal"
+  goat: "Kecske"
+  marker: "Jelölő"

@@ -1,4 +1,20 @@
-﻿language:
+language:
   code: tr_tr
   name: Türkçe
   region: Türkiye
+material:
+  trial_spawner: "Sınama Çağırıcısı"
+  vault: "Kasa"
+  heavy_core: "Ağır Çekirdek"
+  mace: "Topuz"
+  wind_charge: "Rüzgâr Topu"
+  breeze_rod: "Esinti Çubuğu"
+  crafter: "Üretici"
+entity:
+  breeze: "Esinti"
+  bogged: "Batık"
+  wind_charge: "Rüzgâr Topu"
+enchantment:
+  wind_burst: "Rüzgâr Patlaması"
+  density: "Yoğunluk"
+  breach: "Aşma"

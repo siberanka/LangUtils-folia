@@ -1,4 +1,20 @@
-﻿language:
+language:
   code: ko_kr
   name: 한국어
   region: 대한민국
+material:
+  trial_spawner: "시련 생성기"
+  vault: "금고"
+  heavy_core: "무거운 코어"
+  mace: "철퇴"
+  wind_charge: "돌풍구"
+  breeze_rod: "브리즈 막대기"
+  crafter: "제작기"
+entity:
+  breeze: "브리즈"
+  bogged: "보그드"
+  wind_charge: "돌풍구"
+enchantment:
+  wind_burst: "돌풍"
+  density: "육중"
+  breach: "격파"

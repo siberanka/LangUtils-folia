@@ -1,4 +1,8 @@
-﻿language:
+language:
   code: zh_tw
   name: 繁體中文
   region: 台灣
+biome:
+  meadow: "草甸"
+  grove: "雪林"
+  snowy_slopes: "雪坡"

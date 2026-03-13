@@ -1,4 +1,20 @@
-﻿language:
+language:
   code: zh_tw
   name: 繁體中文
   region: 台灣
+material:
+  trial_spawner: "試煉生怪磚"
+  vault: "寶庫"
+  heavy_core: "沉重核心"
+  mace: "重錘"
+  wind_charge: "風彈"
+  breeze_rod: "旋風桿"
+  crafter: "合成器"
+entity:
+  breeze: "旋風使者"
+  bogged: "沼骸"
+  wind_charge: "風彈"
+enchantment:
+  wind_burst: "風爆"
+  density: "緻密"
+  breach: "破甲"

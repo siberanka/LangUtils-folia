@@ -1,4 +1,9 @@
-﻿language:
+language:
   code: de_de
   name: Deutsch
   region: Deutschland
+entity:
+  axolotl: "Axolotl"
+  glow_squid: "Leuchttintenfisch"
+  goat: "Ziege"
+  marker: "Marker"

@@ -1,4 +1,9 @@
-﻿language:
+language:
   code: tr_tr
   name: Türkçe
   region: Türkiye
+entity:
+  axolotl: "Aksolotl"
+  glow_squid: "Parlayan Mürekkep Balığı"
+  goat: "Keçi"
+  marker: "İşaretleyici"

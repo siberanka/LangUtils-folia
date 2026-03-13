@@ -1,4 +1,20 @@
-﻿language:
+language:
   code: pt_br
   name: Português
   region: Brasil
+material:
+  trial_spawner: "Gerador do desafio"
+  vault: "Cofre"
+  heavy_core: "Núcleo pesado"
+  mace: "Clava"
+  wind_charge: "Projétil de vento"
+  breeze_rod: "Vara de vórtice"
+  crafter: "Bancada automática"
+entity:
+  breeze: "Vórtice"
+  bogged: "Pantanoso"
+  wind_charge: "Projétil de vento"
+enchantment:
+  wind_burst: "Rajada de vento"
+  density: "Densidade"
+  breach: "Ruptura"

@@ -1,4 +1,9 @@
-﻿language:
+language:
   code: ru_ru
   name: Русский
   region: Россия
+entity:
+  axolotl: "Аксолотль"
+  glow_squid: "Светящийся спрут"
+  goat: "Коза"
+  marker: "Метка"

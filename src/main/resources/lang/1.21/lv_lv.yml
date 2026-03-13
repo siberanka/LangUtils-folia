@@ -1,4 +1,20 @@
-﻿language:
+language:
   code: lv_lv
   name: Latviešu
   region: Latvija
+material:
+  trial_spawner: "Izaicinājuma radītājs"
+  vault: "Seifs"
+  heavy_core: "Smagais kodols"
+  mace: "Vāle"
+  wind_charge: "Vēja lādiņš"
+  breeze_rod: "Vēsmas stienis"
+  crafter: "Amatnieks"
+entity:
+  breeze: "Vēsma"
+  bogged: "Purvainis"
+  wind_charge: "Vēja lādiņš"
+enchantment:
+  wind_burst: "Vēja brāzma"
+  density: "Blīvums"
+  breach: "Caursitošs"

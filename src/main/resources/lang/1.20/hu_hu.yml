@@ -1,4 +1,13 @@
-﻿language:
+language:
   code: hu_hu
   name: Magyar
   region: Magyarország
+material:
+  cherry_planks: "Cseresznyefa deszka"
+  cherry_log: "Cseresznyefarönk"
+  bamboo_planks: "Bambuszdeszka"
+entity:
+  sniffer: "Orrontó"
+  camel: "Teve"
+biome:
+  cherry_grove: "Cseresznyeliget"

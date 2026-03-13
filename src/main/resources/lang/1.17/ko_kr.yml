@@ -1,4 +1,9 @@
-﻿language:
+language:
   code: ko_kr
   name: 한국어
   region: 대한민국
+entity:
+  axolotl: "아홀로틀"
+  glow_squid: "발광 오징어"
+  goat: "염소"
+  marker: "표지"

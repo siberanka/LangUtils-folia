@@ -1,4 +1,9 @@
-﻿language:
+language:
   code: vi_vn
   name: Tiếng Việt
   region: Việt Nam
+entity:
+  axolotl: "Kì giông"
+  glow_squid: "Mực phát sáng"
+  goat: "Con dê"
+  marker: "Vật đánh dấu"

@@ -1,4 +1,13 @@
-﻿language:
+language:
   code: zh_tw
   name: 繁體中文
   region: 台灣
+material:
+  cherry_planks: "櫻花木材"
+  cherry_log: "櫻花木原木"
+  bamboo_planks: "竹材"
+entity:
+  sniffer: "嗅探獸"
+  camel: "駱駝"
+biome:
+  cherry_grove: "櫻花樹林"

@@ -1,4 +1,16 @@
-﻿language:
+language:
   code: tr_tr
   name: Türkçe
   region: Türkiye
+material:
+  mangrove_planks: "Mangrov Tahtası"
+  mud: "Çamur"
+  sculk: "Sculk"
+  froglight: "Okre Kurbağa Işığı"
+entity:
+  allay: "Yardımcı"
+  frog: "Kurbağa"
+  tadpole: "Kurbağa yavrusu"
+  warden: "Muhafız"
+enchantment:
+  swift_sneak: "Çevik Gizlilik"

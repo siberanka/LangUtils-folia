@@ -1,4 +1,13 @@
-﻿language:
+language:
   code: id_id
   name: Bahasa Indonesia
   region: Indonesia
+material:
+  cherry_planks: "Papan Sakura"
+  cherry_log: "Gelondong Sakura"
+  bamboo_planks: "Papan Bambu"
+entity:
+  sniffer: "Pengendus"
+  camel: "Unta"
+biome:
+  cherry_grove: "Hutan Sakura"

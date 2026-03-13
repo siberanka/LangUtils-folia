@@ -1,4 +1,16 @@
-﻿language:
+language:
   code: vi_vn
   name: Tiếng Việt
   region: Việt Nam
+material:
+  mangrove_planks: "Ván gỗ đước"
+  mud: "Bùn"
+  sculk: "Sculk"
+  froglight: "Đèn ếch nâu hoàng thổ"
+entity:
+  allay: "Allay"
+  frog: "Con ếch"
+  tadpole: "Nòng nọc"
+  warden: "Cai ngục"
+enchantment:
+  swift_sneak: "Rón rén nhanh"

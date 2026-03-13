@@ -1,4 +1,8 @@
-﻿language:
+language:
   code: pl_pl
   name: Polski
   region: Polska
+biome:
+  meadow: "Górska łąka"
+  grove: "Bór górski"
+  snowy_slopes: "Śnieżne zbocza"

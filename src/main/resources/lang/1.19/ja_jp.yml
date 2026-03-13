@@ -1,4 +1,16 @@
-﻿language:
+language:
   code: ja_jp
   name: 日本語
   region: 日本
+material:
+  mangrove_planks: "マングローブの板材"
+  mud: "泥"
+  sculk: "スカルク"
+  froglight: "黄土色のフロッグライト"
+entity:
+  allay: "アレイ"
+  frog: "カエル"
+  tadpole: "オタマジャクシ"
+  warden: "ウォーデン"
+enchantment:
+  swift_sneak: "スニーク速度上昇"

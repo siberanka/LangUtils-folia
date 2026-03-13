@@ -1,4 +1,9 @@
-﻿language:
+language:
   code: it_it
   name: Italiano
   region: Italia
+entity:
+  axolotl: "Axolotl"
+  glow_squid: "Calamaro luminescente"
+  goat: "Capra"
+  marker: "Segnaposto"

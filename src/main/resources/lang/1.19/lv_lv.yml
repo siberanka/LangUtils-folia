@@ -1,4 +1,16 @@
-﻿language:
+language:
   code: lv_lv
   name: Latviešu
   region: Latvija
+material:
+  mangrove_planks: "Mangroves dēļi"
+  mud: "Dubļi"
+  sculk: "Sculk"
+  froglight: "Okera varžu lampa"
+entity:
+  allay: "Allajs"
+  frog: "Varde"
+  tadpole: "Kurkulis"
+  warden: "Uzraugs"
+enchantment:
+  swift_sneak: "Ātrā lavīšanās"

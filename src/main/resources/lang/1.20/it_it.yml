@@ -1,4 +1,13 @@
-﻿language:
+language:
   code: it_it
   name: Italiano
   region: Italia
+material:
+  cherry_planks: "Assi di ciliegio"
+  cherry_log: "Tronco di ciliegio"
+  bamboo_planks: "Assi di bambù"
+entity:
+  sniffer: "Fiutatore"
+  camel: "Dromedario"
+biome:
+  cherry_grove: "Boschetto di ciliegi"

@@ -1,4 +1,9 @@
-﻿language:
+language:
   code: pt_br
   name: Português
   region: Brasil
+entity:
+  axolotl: "Axolote"
+  glow_squid: "Lula-brilhante"
+  goat: "Cabra"
+  marker: "Marcador"

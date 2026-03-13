@@ -1,4 +1,13 @@
-﻿language:
+language:
   code: pl_pl
   name: Polski
   region: Polska
+material:
+  cherry_planks: "Wiśniowe deski"
+  cherry_log: "Wiśniowy pień"
+  bamboo_planks: "Bambusowe deski"
+entity:
+  sniffer: "Niuchacz"
+  camel: "Wielbłąd"
+biome:
+  cherry_grove: "Wiśniowy gaj"

@@ -1,4 +1,16 @@
-﻿language:
+language:
   code: es_es
   name: Español
   region: España
+material:
+  mangrove_planks: "Tablones de mangle"
+  mud: "Barro"
+  sculk: "Sigilo veloz"
+  froglight: "Ranaluz ocre"
+entity:
+  allay: "Allay"
+  frog: "Rana"
+  tadpole: "Renacuajo"
+  warden: "Warden"
+enchantment:
+  swift_sneak: "Sigilo veloz"

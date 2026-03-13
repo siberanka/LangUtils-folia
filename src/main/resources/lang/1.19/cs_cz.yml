@@ -1,4 +1,16 @@
-﻿language:
+language:
   code: cs_cz
   name: Čeština
   region: Česko
+material:
+  mangrove_planks: "Kořenovníková prkna"
+  mud: "Bahno"
+  sculk: "Sculk"
+  froglight: "Okrový žabosvit"
+entity:
+  allay: "alík"
+  frog: "žába"
+  tadpole: "pulec"
+  warden: "vartýř"
+enchantment:
+  swift_sneak: "Tichošlápek"

@@ -1,4 +1,16 @@
-﻿language:
+language:
   code: ko_kr
   name: 한국어
   region: 대한민국
+material:
+  mangrove_planks: "맹그로브나무 판자"
+  mud: "진흙"
+  sculk: "스컬크"
+  froglight: "황톳빛 개구리불"
+entity:
+  allay: "알레이"
+  frog: "개구리"
+  tadpole: "올챙이"
+  warden: "워든"
+enchantment:
+  swift_sneak: "신속한 잠행"

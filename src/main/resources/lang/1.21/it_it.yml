@@ -1,4 +1,20 @@
-﻿language:
+language:
   code: it_it
   name: Italiano
   region: Italia
+material:
+  trial_spawner: "Generatore della sfida"
+  vault: "Cassaforte"
+  heavy_core: "Nucleo pesante"
+  mace: "Mazza"
+  wind_charge: "Carica di vento"
+  breeze_rod: "Verga di brezza"
+  crafter: "Fabbricatore"
+entity:
+  breeze: "Brezza"
+  bogged: "Paludoso"
+  wind_charge: "Carica di vento"
+enchantment:
+  wind_burst: "Colpo di vento"
+  density: "Densità"
+  breach: "Breccia"

@@ -1,4 +1,9 @@
-﻿language:
+language:
   code: es_es
   name: Español
   region: España
+entity:
+  axolotl: "Ajolote"
+  glow_squid: "Calamar luminoso"
+  goat: "Cabra"
+  marker: "Marcador"

@@ -1,4 +1,20 @@
-﻿language:
+language:
   code: hu_hu
   name: Magyar
   region: Magyarország
+material:
+  trial_spawner: "Küzdőtéri idézőketrec"
+  vault: "Széf"
+  heavy_core: "Nehéz mag"
+  mace: "Buzogány"
+  wind_charge: "Széllöket"
+  breeze_rod: "Szélrúd"
+  crafter: "Barkácsoló"
+entity:
+  breeze: "Őrszél"
+  bogged: "Láplövész"
+  wind_charge: "Széllöket"
+enchantment:
+  wind_burst: "Förgeteg"
+  density: "Sűrűség"
+  breach: "Páncéltörés"

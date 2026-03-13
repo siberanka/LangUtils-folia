@@ -1,4 +1,9 @@
-﻿language:
+language:
   code: ro_ro
   name: Română
   region: România
+entity:
+  axolotl: "Axolotl"
+  glow_squid: "Calamar luminos"
+  goat: "Capră"
+  marker: "Marcator"

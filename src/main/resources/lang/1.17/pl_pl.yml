@@ -1,4 +1,9 @@
-﻿language:
+language:
   code: pl_pl
   name: Polski
   region: Polska
+entity:
+  axolotl: "Aksolotl"
+  glow_squid: "Świecąca kałamarnica"
+  goat: "Koza"
+  marker: "Znacznik"

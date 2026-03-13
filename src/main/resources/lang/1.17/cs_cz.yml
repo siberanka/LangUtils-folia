@@ -1,4 +1,9 @@
-﻿language:
+language:
   code: cs_cz
   name: Čeština
   region: Česko
+entity:
+  axolotl: "Axolotl"
+  glow_squid: "světélkující chobotnice"
+  goat: "koza"
+  marker: "Značka"

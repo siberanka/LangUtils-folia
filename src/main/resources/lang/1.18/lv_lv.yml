@@ -1,4 +1,8 @@
-﻿language:
+language:
   code: lv_lv
   name: Latviešu
   region: Latvija
+biome:
+  meadow: "Pļava"
+  grove: "Birzs"
+  snowy_slopes: "Sniegainās nogāzes"

@@ -1,4 +1,13 @@
-﻿language:
+language:
   code: ro_ro
   name: Română
   region: România
+material:
+  cherry_planks: "Scânduri de cireș"
+  cherry_log: "Buştean de cireș"
+  bamboo_planks: "Scânduri de bambus"
+entity:
+  sniffer: "Adulmecător"
+  camel: "Cămilă"
+biome:
+  cherry_grove: "Dumbravă de cireși"

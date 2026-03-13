@@ -1,4 +1,20 @@
-﻿language:
+language:
   code: id_id
   name: Bahasa Indonesia
   region: Indonesia
+material:
+  trial_spawner: "Pemijah Cobaan"
+  vault: "Brankas"
+  heavy_core: "Inti Berat"
+  mace: "Gada"
+  wind_charge: "Bola Angin"
+  breeze_rod: "Tongkat Pawana"
+  crafter: "Mesin Kerajinan"
+entity:
+  breeze: "Pawana"
+  bogged: "Bengkarak Rawa"
+  wind_charge: "Bola Angin"
+enchantment:
+  wind_burst: "Embusan Angin"
+  density: "Kepadatan"
+  breach: "Terobos"

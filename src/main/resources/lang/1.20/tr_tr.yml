@@ -1,4 +1,13 @@
-﻿language:
+language:
   code: tr_tr
   name: Türkçe
   region: Türkiye
+material:
+  cherry_planks: "Kiraz Ağacı Tahta"
+  cherry_log: "Kiraz Ağacı Kütüğü"
+  bamboo_planks: "Bambu Tahtası"
+entity:
+  sniffer: "Koklayıcı"
+  camel: "Deve"
+biome:
+  cherry_grove: "Kiraz Ağacı Korusu"

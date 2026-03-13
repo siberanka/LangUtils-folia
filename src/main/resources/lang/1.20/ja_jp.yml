@@ -1,4 +1,13 @@
-﻿language:
+language:
   code: ja_jp
   name: 日本語
   region: 日本
+material:
+  cherry_planks: "サクラの板材"
+  cherry_log: "サクラの原木"
+  bamboo_planks: "竹の板材"
+entity:
+  sniffer: "スニッファー"
+  camel: "ラクダ"
+biome:
+  cherry_grove: "サクラの林"

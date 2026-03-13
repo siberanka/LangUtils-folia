@@ -1,4 +1,9 @@
-﻿language:
+language:
   code: fr_fr
   name: Français
   region: France
+entity:
+  axolotl: "Axolotl"
+  glow_squid: "Poulpe luisant"
+  goat: "Chèvre"
+  marker: "Repère"

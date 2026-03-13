@@ -1,4 +1,20 @@
-﻿language:
+language:
   code: ja_jp
   name: 日本語
   region: 日本
+material:
+  trial_spawner: "試練のスポナー"
+  vault: "宝物庫"
+  heavy_core: "ヘビーコア"
+  mace: "メイス"
+  wind_charge: "ウィンドチャージ"
+  breeze_rod: "ブリーズロッド"
+  crafter: "自動作業台"
+entity:
+  breeze: "ブリーズ"
+  bogged: "ボグド"
+  wind_charge: "ウィンドチャージ"
+enchantment:
+  wind_burst: "ウィンドバースト"
+  density: "重撃"
+  breach: "防具貫通"

@@ -1,4 +1,16 @@
-﻿language:
+language:
   code: pl_pl
   name: Polski
   region: Polska
+material:
+  mangrove_planks: "Namorzynowe deski"
+  mud: "Błoto"
+  sculk: "Sculk"
+  froglight: "Złocista żabia lampa"
+entity:
+  allay: "Otuszek"
+  frog: "Żaba"
+  tadpole: "Kijanka"
+  warden: "Nadzorca"
+enchantment:
+  swift_sneak: "Przemykanie"

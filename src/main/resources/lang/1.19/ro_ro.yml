@@ -1,4 +1,16 @@
-﻿language:
+language:
   code: ro_ro
   name: Română
   region: România
+material:
+  mangrove_planks: "Scânduri de mangrovă"
+  mud: "Noroi"
+  sculk: "Sculk"
+  froglight: "Lumină de broască ocru"
+entity:
+  allay: "Aliat"
+  frog: "Broască"
+  tadpole: "Mormoloc"
+  warden: "Gardian"
+enchantment:
+  swift_sneak: "Furişare rapidă"

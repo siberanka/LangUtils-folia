@@ -1,4 +1,8 @@
-﻿language:
+language:
   code: ru_ru
   name: Русский
   region: Россия
+biome:
+  meadow: "Луг"
+  grove: "Роща"
+  snowy_slopes: "Заснеженные склоны"

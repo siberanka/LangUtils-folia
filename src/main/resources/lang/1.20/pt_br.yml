@@ -1,4 +1,13 @@
-﻿language:
+language:
   code: pt_br
   name: Português
   region: Brasil
+material:
+  cherry_planks: "Tábuas de cerejeira"
+  cherry_log: "Tronco de cerejeira"
+  bamboo_planks: "Tábuas de bambu"
+entity:
+  sniffer: "Farejador"
+  camel: "Camelo"
+biome:
+  cherry_grove: "Cerejal"

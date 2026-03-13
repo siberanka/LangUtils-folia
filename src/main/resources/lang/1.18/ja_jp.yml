@@ -1,4 +1,8 @@
-﻿language:
+language:
   code: ja_jp
   name: 日本語
   region: 日本
+biome:
+  meadow: "草地"
+  grove: "林"
+  snowy_slopes: "雪の斜面"

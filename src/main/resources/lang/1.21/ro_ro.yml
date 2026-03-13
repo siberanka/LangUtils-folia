@@ -1,4 +1,20 @@
-﻿language:
+language:
   code: ro_ro
   name: Română
   region: România
+material:
+  trial_spawner: "Generator de încercări"
+  vault: "Seif"
+  heavy_core: "Nucleu greu"
+  mace: "Buzdugan"
+  wind_charge: "Minge de vânt"
+  breeze_rod: "Tijă de briză"
+  crafter: "Fabricator"
+entity:
+  breeze: "Breeze"
+  bogged: "Împotmolit"
+  wind_charge: "Minge de vânt"
+enchantment:
+  wind_burst: "Rafală de vânt"
+  density: "Densitate"
+  breach: "Breşă"

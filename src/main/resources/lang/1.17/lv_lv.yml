@@ -1,4 +1,9 @@
-﻿language:
+language:
   code: lv_lv
   name: Latviešu
   region: Latvija
+entity:
+  axolotl: "Aksolotlis"
+  glow_squid: "Spīdošais Kalmārs"
+  goat: "Kaza"
+  marker: "Žymeklis"

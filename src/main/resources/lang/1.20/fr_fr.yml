@@ -1,4 +1,13 @@
-﻿language:
+language:
   code: fr_fr
   name: Français
   region: France
+material:
+  cherry_planks: "Planches de cerisier"
+  cherry_log: "Bûche de cerisier"
+  bamboo_planks: "Planches de bambou"
+entity:
+  sniffer: "Renifleur"
+  camel: "Dromadaire"
+biome:
+  cherry_grove: "Bosquet de cerisiers"

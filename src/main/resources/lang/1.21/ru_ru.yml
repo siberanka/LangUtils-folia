@@ -1,4 +1,20 @@
-﻿language:
+language:
   code: ru_ru
   name: Русский
   region: Россия
+material:
+  trial_spawner: "Рассадник испытаний"
+  vault: "Хранилище"
+  heavy_core: "Навершие булавы"
+  mace: "Булава"
+  wind_charge: "Заряд ветра"
+  breeze_rod: "Вихревой стержень"
+  crafter: "Сборщик"
+entity:
+  breeze: "Вихрь"
+  bogged: "Болотник"
+  wind_charge: "Заряд ветра"
+enchantment:
+  wind_burst: "Порыв ветра"
+  density: "Плотность"
+  breach: "Пробитие"

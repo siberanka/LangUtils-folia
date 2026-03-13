@@ -1,4 +1,8 @@
-﻿language:
+language:
   code: id_id
   name: Bahasa Indonesia
   region: Indonesia
+biome:
+  meadow: "Padang Rumput"
+  grove: "Belukar"
+  snowy_slopes: "Lereng Bersalju"

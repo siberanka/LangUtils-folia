@@ -1,4 +1,20 @@
-﻿language:
+language:
   code: es_es
   name: Español
   region: España
+material:
+  trial_spawner: "Generador de desafío"
+  vault: "Arca"
+  heavy_core: "Núcleo pesado"
+  mace: "Maza"
+  wind_charge: "Carga de viento"
+  breeze_rod: "Vara de breeze"
+  crafter: "Fabricador"
+entity:
+  breeze: "Breeze"
+  bogged: "Ciénago"
+  wind_charge: "Carga de viento"
+enchantment:
+  wind_burst: "Aeroimpulso"
+  density: "Densidad"
+  breach: "Fisura"

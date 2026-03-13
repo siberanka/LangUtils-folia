@@ -1,4 +1,20 @@
-﻿language:
+language:
   code: pl_pl
   name: Polski
   region: Polska
+material:
+  trial_spawner: "Przyzywacz prób"
+  vault: "Skarbiec"
+  heavy_core: "Ciężki rdzeń"
+  mace: "Buzdygan"
+  wind_charge: "Wietrzna kula"
+  breeze_rod: "Wichrowa różdżka"
+  crafter: "Wytwarzacz"
+entity:
+  breeze: "Wichrzyk"
+  bogged: "Bagniak"
+  wind_charge: "Wietrzna kula"
+enchantment:
+  wind_burst: "Wicher"
+  density: "Masywność"
+  breach: "Przedarcie"

@@ -1,4 +1,20 @@
-﻿language:
+language:
   code: vi_vn
   name: Tiếng Việt
   region: Việt Nam
+material:
+  trial_spawner: "Lồng triệu hồi thử thách"
+  vault: "Hòm báu vật"
+  heavy_core: "Lõi nặng"
+  mace: "Chuỳ"
+  wind_charge: "Cầu gió"
+  breeze_rod: "Que gió"
+  crafter: "Máy chế tạo"
+entity:
+  breeze: "Quỷ gió"
+  bogged: "Quái đầm lầy"
+  wind_charge: "Cầu gió"
+enchantment:
+  wind_burst: "Phong bộc"
+  density: "Gia trọng"
+  breach: "Xuyên giáp"

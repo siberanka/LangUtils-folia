@@ -1,4 +1,9 @@
-﻿language:
+language:
   code: zh_tw
   name: 繁體中文
   region: 台灣
+entity:
+  axolotl: "墨西哥鈍口螈"
+  glow_squid: "螢光魷魚"
+  goat: "山羊"
+  marker: "標記"
